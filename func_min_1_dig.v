@@ -1,4 +1,4 @@
-module func_min1_dig(
+module func_min_1_dig(
     input a, input b, input c, input d,
     output z
     );
