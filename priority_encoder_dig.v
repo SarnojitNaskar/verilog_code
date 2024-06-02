@@ -1,4 +1,4 @@
-module pr_enc_dig(
+module priority_encoder_dig(
     input d0, input d1, input d2, input d3, input d4, input d5, input d6, input d7,
     output a, output b, output c
     );
