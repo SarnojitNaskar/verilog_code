@@ -1,10 +1,10 @@
-module mux81_tb;
+module MUX_81_tb;
 
 reg s2, s1, s0;
 reg d0, d1, d2, d3, d4, d5, d6, d7;
 wire y;
 
-mux_dig uut (.s2(s2), .s1(s1), .s0(s0), 
+MUX_81_dig uut (.s2(s2), .s1(s1), .s0(s0), 
                 .d0(d0), .d1(d1), .d2(d2), .d3(d3), .d4(d4), .d5(d5), .d6(d6), .d7(d7),
                 .y(y));
 
