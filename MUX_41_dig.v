@@ -1,4 +1,4 @@
-module mux41_dig(
+module MUX_41_dig(
     input s0, input s1,
     input d0, input d1, input d2, input d3,
     output y
