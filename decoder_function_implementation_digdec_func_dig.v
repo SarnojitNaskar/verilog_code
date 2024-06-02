@@ -1,4 +1,4 @@
-module dec_func_dig(
+module decoder_function_implementation_dig(
     input a, input b, input c,
     output d0, output d1, output d2, output d3, output d4, output d5, output d6, output d7,
     output f1, output f2, output f3
