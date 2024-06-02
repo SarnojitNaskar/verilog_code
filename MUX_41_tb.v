@@ -1,9 +1,9 @@
-module mux41_tb;
+module MUX_41_tb;
 
 reg s1, s0, d0, d1, d2, d3;
 wire y;
 
-mux_dig uut (.s1(s1), .s0(s0), .d0(d0), .d1(d1), .d2(d2), .d3(d3), .y(y));
+MUX_41_dig uut (.s1(s1), .s0(s0), .d0(d0), .d1(d1), .d2(d2), .d3(d3), .y(y));
 
 initial
 begin
