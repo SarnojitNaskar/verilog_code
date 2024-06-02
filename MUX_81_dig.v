@@ -1,4 +1,4 @@
-module mux81_dig(
+module MUX_81_dig(
     input s0, input s1, input s2,
     input d0, input d1, input d2, input d3, input d4, input d5, input d6, input d7,
     output y
