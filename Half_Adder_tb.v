@@ -1,7 +1,7 @@
-module ha_tb;
+module Half_Adder_tb;
 reg [1:0]a;
 wire s, c;
-ha_dig uut (.a(a), .s(s), .c(c));
+Half_Adder_dig uut (.a(a), .s(s), .c(c));
 initial begin
     a=0;#100;
     a=1;#100;
