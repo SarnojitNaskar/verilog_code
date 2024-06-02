@@ -1,4 +1,4 @@
-module fa_tb;
+module Full_Adder_tb;
 reg [2:0]a;
 wire s, c;
 fa_dig uut (.a(a), .s(s), .c(c));
