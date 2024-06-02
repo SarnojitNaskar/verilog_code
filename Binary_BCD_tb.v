@@ -3,7 +3,7 @@ module Binary_BCD_dig;
 reg A3, A2, A1, A0;
 wire B4, B3, B2, B1, B0;
 
-bb_dig uut (.A3(A3), .A2(A2), .A1(A1), .A0(A0), .B4(B4), .B3(B3), .B2(B2), .B1(B1), .B0(B0));
+Binary_BCD_dig uut (.A3(A3), .A2(A2), .A1(A1), .A0(A0), .B4(B4), .B3(B3), .B2(B2), .B1(B1), .B0(B0));
 
 initial
 begin
