@@ -1,4 +1,4 @@
-module gray_bin_dig(
+module Gray_Binary_dig(
     input [3:0]g, output [3:0]b
     );
     assign b[0]=b[1]^g[0];
