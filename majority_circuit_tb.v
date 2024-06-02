@@ -1,9 +1,9 @@
-module mc_tb;
+module majority_circuit_tb;
 
 reg a, b, c;
 wire y;
 
-mc_dig uut (.a(a), .b(b), .c(c), .y(y));
+majority_circuit_dig uut (.a(a), .b(b), .c(c), .y(y));
 
 initial
 begin
