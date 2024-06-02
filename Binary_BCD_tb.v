@@ -1,4 +1,4 @@
-module bin_bcd_tb;
+module Binary_BCD_dig;
 
 reg A3, A2, A1, A0;
 wire B4, B3, B2, B1, B0;
