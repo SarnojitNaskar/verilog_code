@@ -1,7 +1,7 @@
-module bin_ex3_tb;
+module Binary_Excess3_tb;
 reg [3:0]b;
 wire [4:0]e;
-be_dig uut (.b(b), .e(e));
+Binary_Excess3_dig uut (.b(b), .e(e));
 initial begin
     b=0;#100;
     b=1;#100;
