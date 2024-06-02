@@ -1,9 +1,9 @@
-module pr_enc_tb;
+module priority_encoder_tb;
 
 reg d0, d1, d2, d3, d4, d5, d6, d7;
 wire a, b, c;
 
-pr_enc_dig uut (.d0(d0), .d1(d1), .d2(d2), .d3(d3), .d4(d4), .d5(d5), .d6(d6), .d7(d7),
+priority_encoder_dig uut (.d0(d0), .d1(d1), .d2(d2), .d3(d3), .d4(d4), .d5(d5), .d6(d6), .d7(d7),
                 .a(a), .b(b), .c(c));
 initial
 begin
