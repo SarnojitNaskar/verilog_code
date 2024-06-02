@@ -1,4 +1,4 @@
-module dec_func_tb;
+module decoder_function_implementation_tb;
 
 reg a, b, c;
 wire d0, d1, d2, d3, d4, d5, d6, d7, f1, f2, f3;
