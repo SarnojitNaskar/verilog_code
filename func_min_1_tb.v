@@ -1,8 +1,8 @@
-module func_min_tb;
+module func_min_1_tb;
 
 reg a, b, c, d;
 wire z;
-func_min_dig uut(.a(a), .b(b), .c(c), .d(d), .z(z));
+func_min_1_dig uut(.a(a), .b(b), .c(c), .d(d), .z(z));
 initial
 begin
     a=0;b=0;c=0;d=0;#100;
