@@ -1,4 +1,4 @@
-module mc_dig(
+module majority_circuit_dig(
     input a, input b, input c,
     output y
     );
