@@ -1,9 +1,9 @@
-module c_tb;
+module comparator_4b_tb;
 
 reg A1, A0, B1, B0;
 wire F1, F2, F3;
 
-c_dig uut (.A1(A1), .A0(A0), .B1(B1), .B0(B0), .F1(F1), .F2(F2), .F3(F3));
+comparator_4b_dig uut (.A1(A1), .A0(A0), .B1(B1), .B0(B0), .F1(F1), .F2(F2), .F3(F3));
 
 initial
 begin
