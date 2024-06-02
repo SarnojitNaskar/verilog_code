@@ -1,4 +1,4 @@
-module c_dig(
+module comparator_4b_dig(
     input A1, input A0, input B1, input B0,
     output F1, output F2, output F3
     );
