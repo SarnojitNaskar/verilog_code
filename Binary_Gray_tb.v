@@ -1,7 +1,7 @@
-module bin_gray_tb;
+module Binary_Gray_tb;
 reg [3:0]b;
 wire [3:0]g;
-bg_dig uut (.b(b), .g(g));
+Binary_Gray_dig uut (.b(b), .g(g));
 initial begin
     b=0;#100;
     b=1;#100;
