@@ -1,4 +1,4 @@
-module dec_dig(
+module decoder_38_dig(
     input a, input b, input c,
     output d0, output d1, output d2, output d3, output d4, output d5, output d6, output d7
     );
